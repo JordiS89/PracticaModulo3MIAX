@@ -16,4 +16,4 @@ class ApiHandler:
 #
 a1 = ApiHandler(day = '2021-10-01')
 precio = a1.get_precio()
-print(precio)
+print(precio['PVPC'])
